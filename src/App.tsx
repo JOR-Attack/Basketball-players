@@ -20,7 +20,7 @@ function App() {
     <>
       <h1 className="text-4xl text-center mb-5">Jugadores de basketball</h1>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {data.map((player, index) => (
+        {data.map((player) => (
           <div className="h-100 p-2 border-2 border-white bg-gray-700 rounded-xl">
             <div className="text-center text-2xl">{player.name}</div>
             <img src={player.imgSrc} alt={player.name} />
